@@ -1,6 +1,0 @@
-{
-    "query fetchAllStudents {\n  getAllStudents {\n    name\n    sex\n    age\n    tutor {\n      name\n      sex\n      qualification\n    }\n    games\n  }\n}\n": 1,
-    "query studentById($id: Int!) {\n  getStudentById(id: $id) {\n    name\n    sex\n    age\n    tutor {\n      name\n      sex\n      qualification\n    }\n    games\n  }\n}\n": 2,
-    "query fetchAllTutors {\n  getTutors {\n    name\n    id\n    sex\n    qualification\n  }\n}\n": 3,
-    "mutation addTutor($id: Int, $name: String, $sex: String, $qualification: String) {\n  addTutor(id: $id, name: $name, sex: $sex, qualification: $qualification) {\n    id\n    name\n    sex\n    qualification\n  }\n}\n": 4
-}
